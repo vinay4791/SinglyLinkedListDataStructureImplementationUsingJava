@@ -19,7 +19,7 @@ public class SinglyLinkedList {
 		newNode.next = first;
 		first = newNode;
 	}
-	
+	//This functions deletes a node at the beginning
 	public Node deleteFirst() {
 		Node tempNode = first;
 		first = first.next;
